@@ -19,6 +19,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
+import log from "@/public/log.png";
 
 export default function Home() {
   return (
@@ -29,14 +30,14 @@ export default function Home() {
         id="home"
       >
         <p className="text-center font-bold text-2xl md:text-base lg:text-3xl text-sky-950">
-          L&apos;application 100% en qui fusionne ERP et CRM pour entreprise
-          (TPE, <br />
+          L&apos;application 100% en ligne qui fusionne ERP et CRM pour
+          entreprise (TPE, <br />
           PME, grandes entreprises, indépendants, associations)
         </p>
         <Image
           src={gestionnaire}
           alt=""
-          width={450}
+          width={50}
           className="my-5 w-full max-w-[450px]"
         />
         <Button className="bg-sky-950 mb-7">Démo gratuite</Button>
@@ -48,7 +49,7 @@ export default function Home() {
       <section className="flex flex-col lg:flex-row justify-between py-10 md:py-20 px-5 md:px-10 lg:px-20 gap-10">
         <div className="flex justify-center lg:justify-start">
           <Image
-            src={gestionnaire}
+            src={log}
             alt=""
             width={450}
             className="w-full max-w-[450px]"

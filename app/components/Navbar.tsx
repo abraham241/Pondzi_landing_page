@@ -47,7 +47,7 @@ export default function Navbar() {
 
             {/* Boutons pour desktop */}
             <div className="flex space-x-4">
-              <Link href="">
+              <Link href="https://gestionstock241.vercel.app/">
                 <Button variant="outline" className="rounded-full">
                   Se connecter
                 </Button>
