@@ -37,7 +37,7 @@ export default function Home() {
         <Image
           src={gestionnaire}
           alt=""
-          width={50}
+          width={450}
           className="my-5 w-full max-w-[450px]"
         />
         <Button className="bg-sky-950 mb-7">Démo gratuite</Button>
@@ -190,7 +190,7 @@ export default function Home() {
             <Card className="bg-sky-900 text-white">
               <CardHeader>
                 <CardTitle className="text-3xl font-bold text-center">
-                  Offre izi
+                  Pack Essentiel
                 </CardTitle>
                 <CardDescription className="font-bold text-white">
                   <p className="text-3xl">15.000 Fcfa</p> <br />
@@ -206,6 +206,7 @@ export default function Home() {
                   <li>Gestion des stocks en temps réel</li>
                   <li>Ajout et modification de produits</li>
                   <li>Alertes de seuil de stock</li>
+                  <li>Support client dédié</li>
                   <li>Exportation des données</li>
                 </ul>
               </CardContent>
@@ -220,10 +221,10 @@ export default function Home() {
             <Card className="bg-sky-900 text-white">
               <CardHeader>
                 <CardTitle className="text-3xl font-bold text-center">
-                  <p>Offre premium</p>
+                  <p>Pack premium</p>
                 </CardTitle>
                 <CardDescription className=" font-bold text-white">
-                  <p className="text-3xl">20.000 Fcfa</p> <br />
+                  <p className="text-3xl">25.000 Fcfa</p> <br />
                   <span>
                     Pour les entreprises en croissance ou les grandes structures
                     cherchant une gestion avancée et optimisée.
@@ -233,11 +234,14 @@ export default function Home() {
               <CardContent>
                 <ul className="list-disc pl-5">
                   <li>Toutes les fonctionnalités du Pack Essentiel.</li>
-                  <li>Prévisions de réapprovisionnement </li>
+                  <li>
+                    Prévisions de réapprovisionnement grace a
+                    l&apos;Intelligence artificielle{" "}
+                  </li>
                   <li>Tableau de bord avancé</li>
                   <li>Support client dédié</li>
-                  <li>Support client dédié</li>
-                  <li>Email & Whatsapp</li>
+                  <li>Agent assistance avec inteligence artificielle</li>
+                  <li>CRM Email & Whatsapp</li>
                 </ul>
               </CardContent>
               <CardFooter>
@@ -261,14 +265,15 @@ export default function Home() {
           <div>
             <Card>
               <CardHeader className="font-bold text-xl md:text-2xl">
-                <CardTitle>Prix accècible</CardTitle>
+                <CardTitle>Prix accessible</CardTitle>
               </CardHeader>
               <CardContent>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Quidem omnis vero fuga amet ut itaque earum voluptatem ipsa,
-                  autem natus eius inventore assumenda provident, adipisci
-                  repellat eaque unde accusamus impedit.
+                  Chez Pondzi App, nous croyons que la gestion de stock
+                  professionnelle doit être à la portée de toutes les
+                  entreprises, grandes ou petites. Nos tarifs compétitifs vous
+                  permettent de bénéficier d’un outil puissant sans compromettre
+                  votre budget.
                 </p>
               </CardContent>
             </Card>
@@ -280,10 +285,11 @@ export default function Home() {
               </CardHeader>
               <CardContent>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Quidem omnis vero fuga amet ut itaque earum voluptatem ipsa,
-                  autem natus eius inventore assumenda provident, adipisci
-                  repellat eaque unde accusamus impedit.
+                  Profitez de la fiabilité et de la sécurité de notre
+                  hébergement cloud. Vos données sont sauvegardées en temps réel
+                  et accessibles partout, à tout moment, sur tous vos appareils.
+                  Avec Pondzi App, gérez vos stocks sans limites et en toute
+                  sécurité.
                 </p>
               </CardContent>
             </Card>
@@ -295,10 +301,10 @@ export default function Home() {
               </CardHeader>
               <CardContent>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Quidem omnis vero fuga amet ut itaque earum voluptatem ipsa,
-                  autem natus eius inventore assumenda provident, adipisci
-                  repellat eaque unde accusamus impedit.
+                  Oubliez les tracas techniques ! Notre équipe assure une
+                  maintenance régulière pour garantir une performance optimale
+                  de votre application. Vous pouvez ainsi vous concentrer sur
+                  votre activité pendant que nous gérons les aspects techniques.
                 </p>
               </CardContent>
             </Card>
@@ -306,14 +312,15 @@ export default function Home() {
           <div>
             <Card>
               <CardHeader className="font-bold text-xl md:text-2xl">
-                <CardTitle>Evolution continue</CardTitle>
+                <CardTitle>Évolution continue avec l&apos;IA</CardTitle>
               </CardHeader>
               <CardContent>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Quidem omnis vero fuga amet ut itaque earum voluptatem ipsa,
-                  autem natus eius inventore assumenda provident, adipisci
-                  repellat eaque unde accusamus impedit.
+                  Pondzi App intègre des fonctionnalités basées sur
+                  l&apos;intelligence artificielle qui s&apos;améliorent avec le
+                  temps. analyses intelligentes et recommandations sur mesure :
+                  notre application évolue pour s&apos;adapter à vos besoins et
+                  vous offrir toujours le meilleur.
                 </p>
               </CardContent>
             </Card>

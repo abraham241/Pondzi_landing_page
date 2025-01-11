@@ -27,7 +27,7 @@ export default function Navbar() {
         <div className="flex justify-between items-center py-4">
           {/* Logo */}
           <div className="h-16 w-24 flex items-center">
-            <Link href="#home">
+            <Link href="#">
               <Image src={log} alt="Le logo" height={50} />
             </Link>
           </div>
