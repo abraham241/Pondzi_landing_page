@@ -59,14 +59,18 @@ export default function Home() {
           <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-sky-950">
             Cest quoi Pondzi App
           </h1>
-          <p className="py-5 md:py-10 text-sm md:text-base">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do{" "}
+          <p className="py-4">
+            Pondzi App est une application innovante conçue pour simplifier et{" "}
             <br />
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim{" "}
+            optimiser la gestion des stocks pour les entreprises de toutes{" "}
             <br />
-            ad minim veniam, quis nostrud exercice ullamco laboris nisi ut{" "}
+            tailles. Grâce à une interface intuitive et des fonctionnalités{" "}
             <br />
-            aliquip ex ea commodo
+            avancées, Pondzi App aide les commerçants, les distributeurs et les{" "}
+            <br />
+            gestionnaires à suivre, organiser et analyser leurs inventaires en{" "}
+            <br />
+            temps réel.
           </p>
           <Button className="bg-sky-950">Essayez la démo gratuitement</Button>
         </div>
@@ -153,13 +157,14 @@ export default function Home() {
             Qui peut utiliser <br /> pondzi App
           </h1>
           <p className="py-5 md:py-10 text-sm md:text-base">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do{" "}
+            Les entrepreneurs et entreprises qui ne supportent pas le désordre{" "}
             <br />
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim{" "}
+            et veulent une gestion des stocks professionnelle, efficace et{" "}
             <br />
-            ad minim veniam, quis nostrud exercice ullamco laboris nisi ut{" "}
+            rentable. Que vous soyez un petit commerçant ou une grande <br />
+            entreprise, vous avez besoin d’un outil qui ne fait pas d’erreurs,{" "}
             <br />
-            aliquip ex ea commod
+            comme vous.
           </p>
           <Button className="bg-sky-950">Demo gratuite</Button>
         </div>
@@ -184,16 +189,24 @@ export default function Home() {
           <div className="w-full md:w-1/2">
             <Card className="bg-sky-900 text-white">
               <CardHeader>
-                <CardTitle>Offre izi</CardTitle>
-                <CardDescription>Card Description</CardDescription>
+                <CardTitle className="text-3xl font-bold text-center">
+                  Offre izi
+                </CardTitle>
+                <CardDescription className="font-bold text-white">
+                  <p className="text-3xl">15.000 Fcfa</p> <br />
+                  <span className="">
+                    Pour les petites entreprises ou commerçants qui souhaitent
+                    une solution simple et efficace.
+                  </span>
+                </CardDescription>
               </CardHeader>
               <CardContent>
                 <ul className="list-disc pl-5">
-                  <li>Fonctionnalité incroyable</li>
                   <li>Interface utilisateur intuitive</li>
-                  <li>Intégration facile</li>
-                  <li>Support client dédié</li>
-                  <li>Optimisé pour la productivité</li>
+                  <li>Gestion des stocks en temps réel</li>
+                  <li>Ajout et modification de produits</li>
+                  <li>Alertes de seuil de stock</li>
+                  <li>Exportation des données</li>
                 </ul>
               </CardContent>
               <CardFooter>
@@ -203,19 +216,28 @@ export default function Home() {
               </CardFooter>
             </Card>
           </div>
-          <div className="w-full md:w-1/2">
+          <div className="w-full md:w-1/2   bg-white">
             <Card className="bg-sky-900 text-white">
               <CardHeader>
-                <CardTitle>Offre izi</CardTitle>
-                <CardDescription>Card Description</CardDescription>
+                <CardTitle className="text-3xl font-bold text-center">
+                  <p>Offre premium</p>
+                </CardTitle>
+                <CardDescription className=" font-bold text-white">
+                  <p className="text-3xl">20.000 Fcfa</p> <br />
+                  <span>
+                    Pour les entreprises en croissance ou les grandes structures
+                    cherchant une gestion avancée et optimisée.
+                  </span>
+                </CardDescription>
               </CardHeader>
               <CardContent>
                 <ul className="list-disc pl-5">
-                  <li>Fonctionnalité incroyable</li>
-                  <li>Interface utilisateur intuitive</li>
-                  <li>Intégration facile</li>
+                  <li>Toutes les fonctionnalités du Pack Essentiel.</li>
+                  <li>Prévisions de réapprovisionnement </li>
+                  <li>Tableau de bord avancé</li>
                   <li>Support client dédié</li>
-                  <li>Optimisé pour la productivité</li>
+                  <li>Support client dédié</li>
+                  <li>Email & Whatsapp</li>
                 </ul>
               </CardContent>
               <CardFooter>
